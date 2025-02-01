@@ -4,8 +4,6 @@ import (
 	"machine"
 )
 
-var period uint64 = 1e9 / 500
-
 func main() {
 	button := machine.D2
 	led := machine.LED
